@@ -16,7 +16,7 @@ def hello_world():
     else:
         text = request.form['text']
         random_string = uuid.uuid4().hex
-        path = "app/static/" + random_string + ".svg"
+        path = "static/" + random_string + ".svg"
         model = load('app/model.joblib')
         np_arr = floats_string_to_np_arr(text)
         make_picture('app/AgesAndHeights.pkl', model, np_arr, path)

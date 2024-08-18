@@ -1,0 +1,7 @@
+MarkupSafe==2.1.5
+packaging==24.1
+plotly==5.23.0
+setuptools==72.2.0
+tenacity==9.0.0
+Werkzeug==3.0.1
+wheel==0.44.0
